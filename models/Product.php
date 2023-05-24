@@ -25,4 +25,13 @@ class Product
         $this -> category = $_category;
         $this -> image = $_image;
     }
+
+    function getDetails() 
+    {
+        return "N/A";
+    }
+
+    function getExpirationDate() {
+        return "Nessuna data di scadenza";
+    }
 }
